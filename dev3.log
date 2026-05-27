@@ -1,0 +1,106 @@
+
+> trishira-developers@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.5.18
+   - Local:        http://localhost:3000
+   - Network:      http://172.16.4.108:3000
+
+ ✓ Starting...
+ ✓ Ready in 3.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 2.7s (1533 modules)
+ GET / 200 in 4556ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 873ms (901 modules)
+ GET /icon.svg?c3215dc3c60b9e93 200 in 1107ms
+ ✓ Compiled in 1540ms (1547 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 1173ms
+ GET / 200 in 1240ms
+ ✓ Compiled /icon.svg in 233ms (901 modules)
+ GET /icon.svg?c3215dc3c60b9e93 200 in 360ms
+ ✓ Compiled in 745ms (1564 modules)
+ GET / 200 in 442ms
+ ✓ Compiled in 459ms (1564 modules)
+ GET / 200 in 380ms
+ ✓ Compiled in 474ms (1564 modules)
+ GET / 200 in 366ms
+ ✓ Compiled in 614ms (1564 modules)
+ GET / 200 in 352ms
+ ✓ Compiled in 395ms (1564 modules)
+ GET / 200 in 309ms
+ ✓ Compiled in 458ms (1564 modules)
+ GET / 200 in 397ms
+ ✓ Compiled in 480ms (1547 modules)
+ GET / 200 in 552ms
+ ✓ Compiled in 591ms (1547 modules)
+ GET / 200 in 412ms
+ ✓ Compiled in 564ms (1547 modules)
+ GET / 200 in 376ms
+ ✓ Compiled in 363ms (1547 modules)
+ GET / 200 in 365ms
+ ✓ Compiled in 382ms (1547 modules)
+ GET / 200 in 401ms
+ GET / 200 in 1258ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 761ms (901 modules)
+ GET /icon.svg?c3215dc3c60b9e93 200 in 961ms
+ ✓ Compiled in 515ms (1564 modules)
+ GET / 200 in 400ms
+ ✓ Compiled in 435ms (1564 modules)
+ GET / 200 in 409ms
+ ✓ Compiled in 590ms (1564 modules)
+ GET / 200 in 359ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: RangeError: Array buffer allocation failed
+ ✓ Compiled in 816ms (1564 modules)
+ GET / 200 in 438ms
+ ✓ Compiled in 476ms (1547 modules)
+ GET / 200 in 531ms
+ ✓ Compiled in 371ms (1547 modules)
+ GET / 200 in 382ms
+ ✓ Compiled in 512ms (1547 modules)
+ GET / 200 in 322ms
+ ✓ Compiled in 383ms (1547 modules)
+ GET / 200 in 313ms
+ GET / 200 in 984ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 802ms (901 modules)
+ GET /icon.svg?c3215dc3c60b9e93 200 in 1046ms
+ ✓ Compiled in 415ms (1564 modules)
+ GET / 200 in 413ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: RangeError: Array buffer allocation failed
+ GET / 200 in 3383ms
+ GET /icon.svg?c3215dc3c60b9e93 200 in 51ms
+ GET / 200 in 4556ms
+ GET / 200 in 982ms
+ GET /icon.svg?c3215dc3c60b9e93 200 in 17ms
+ ✓ Compiled in 1164ms (1547 modules)
+ GET / 200 in 521ms
+ ✓ Compiled in 488ms (1547 modules)
+ GET / 200 in 432ms
+ GET / 200 in 831ms
+ ✓ Compiled /icon.svg in 165ms (901 modules)
+ GET /icon.svg?c3215dc3c60b9e93 200 in 316ms
+ ✓ Compiled in 397ms (1564 modules)
+ GET / 200 in 463ms
+ ✓ Compiled in 730ms (1564 modules)
+ GET / 200 in 506ms
+ ✓ Compiled in 456ms (1564 modules)
+ GET / 200 in 354ms
+ GET / 200 in 1037ms
+ GET /icon.svg?c3215dc3c60b9e93 200 in 25ms
+ ✓ Compiled in 783ms (1564 modules)
+ GET / 200 in 664ms
+ GET / 200 in 857ms
+ GET /icon.svg?c3215dc3c60b9e93 200 in 19ms
+ ✓ Compiled in 1253ms (1547 modules)
+ GET / 200 in 883ms
+ GET / 200 in 1044ms
+ ✓ Compiled /icon.svg in 274ms (901 modules)
+ GET /icon.svg?c3215dc3c60b9e93 200 in 562ms
+ ✓ Compiled in 323ms (1564 modules)
+ GET / 200 in 387ms
+ GET / 200 in 168ms
+ GET / 200 in 134ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: EPERM: operation not permitted, rename 'E:\trishira\trishira_dev\.next\cache\webpack\server-development\2.pack.gz_' -> 'E:\trishira\trishira_dev\.next\cache\webpack\server-development\2.pack.gz'

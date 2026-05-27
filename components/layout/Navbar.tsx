@@ -14,7 +14,6 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
-  // Solidify the bar once the page is scrolled.
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 16);
     onScroll();
@@ -22,12 +21,10 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Close the mobile menu whenever the route changes.
   useEffect(() => {
     setOpen(false);
   }, [pathname]);
 
-  // Prevent background scroll while the mobile menu is open.
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
     return () => {
@@ -43,13 +40,19 @@ export function Navbar() {
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-all duration-300",
         scrolled || open
-          ? "bg-navy/95 shadow-lg shadow-navy/25 backdrop-blur-md"
-          : "bg-transparent",
+          ? "bg-white shadow-lg shadow-navy/10"
+          : "bg-white/92 shadow-sm backdrop-blur-md",
       )}
     >
       <nav className="container-x flex h-20 items-center justify-between">
+        {/*
+          Logo wrapped in a navy container so the image (which has a dark
+          background) always reads cleanly against the white navbar.
+        */}
         <Link href="/" aria-label="Trishira Developers — Home" className="shrink-0">
-          <Logo variant="light" />
+          <div className="overflow-hidden rounded-xl bg-white p-1 ring-1 ring-white/20 shadow-sm transition-transform duration-300 hover:scale-105">
+            <Logo className="h-12 w-12" width={500} height={500} />
+          </div>
         </Link>
 
         {/* Desktop navigation */}
@@ -60,7 +63,9 @@ export function Navbar() {
                 href={link.href}
                 className={cn(
                   "relative rounded-full px-4 py-2 text-sm font-medium transition-colors",
-                  isActive(link.href) ? "text-gold" : "text-cream/85 hover:text-gold",
+                  isActive(link.href)
+                    ? "text-gold"
+                    : "text-navy/75 hover:text-gold",
                 )}
               >
                 {link.label}
@@ -76,7 +81,7 @@ export function Navbar() {
         <div className="hidden items-center gap-4 lg:flex">
           <a
             href={`tel:+${company.phoneDigits}`}
-            className="hidden items-center gap-2 text-sm font-medium text-cream/85 transition-colors hover:text-gold xl:flex"
+            className="hidden items-center gap-2 text-sm font-medium text-navy/70 transition-colors hover:text-gold xl:flex"
           >
             <Phone className="h-4 w-4 text-gold" />
             {company.phoneDisplay}
@@ -89,19 +94,19 @@ export function Navbar() {
         {/* Mobile toggle */}
         <button
           type="button"
-          onClick={() => setOpen((value) => !value)}
+          onClick={() => setOpen((v) => !v)}
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
-          className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/15 text-cream transition-colors hover:border-gold hover:text-gold lg:hidden"
+          className="flex h-11 w-11 items-center justify-center rounded-xl border border-navy/15 text-navy/75 transition-colors hover:border-gold hover:text-gold lg:hidden"
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </nav>
 
-      {/* Mobile menu */}
+      {/* Mobile menu — white background, navy text */}
       <div
         className={cn(
-          "overflow-hidden border-white/10 bg-navy transition-[max-height] duration-300 ease-out lg:hidden",
+          "overflow-hidden border-navy/8 bg-white transition-[max-height] duration-300 ease-out lg:hidden",
           open ? "max-h-[34rem] border-t" : "max-h-0",
         )}
       >
@@ -113,8 +118,8 @@ export function Navbar() {
                 className={cn(
                   "block rounded-xl px-4 py-3 text-[0.95rem] font-medium transition-colors",
                   isActive(link.href)
-                    ? "bg-white/5 text-gold"
-                    : "text-cream/85 hover:bg-white/5 hover:text-gold",
+                    ? "bg-gold/10 text-gold"
+                    : "text-navy/75 hover:bg-navy/5 hover:text-gold",
                 )}
               >
                 {link.label}
@@ -125,7 +130,7 @@ export function Navbar() {
         <div className="container-x flex flex-col gap-3 pb-6">
           <a
             href={`tel:+${company.phoneDigits}`}
-            className="flex items-center gap-2 text-sm font-medium text-cream/85"
+            className="flex items-center gap-2 text-sm font-medium text-navy/75"
           >
             <Phone className="h-4 w-4 text-gold" />
             {company.phoneDisplay}

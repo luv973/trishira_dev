@@ -19,49 +19,64 @@ function Mark({ ok }: { ok: boolean }) {
   );
 }
 
-/** Feature comparison across all three packages — table on desktop, cards on mobile. */
+/** Feature comparison across all four packages — table on desktop, cards on mobile. */
 export function ComparisonTable() {
   return (
     <>
       {/* Desktop / tablet table */}
       <div className="hidden overflow-hidden rounded-2xl border border-navy/10 bg-white shadow-soft md:block">
-        <table className="w-full border-collapse text-left">
-          <thead>
-            <tr className="bg-navy text-cream">
-              <th className="px-6 py-5 text-sm font-semibold uppercase tracking-[0.12em]">
-                Features
-              </th>
-              {packages.map((pkg) => (
-                <th
-                  key={pkg.slug}
-                  className={cn("px-4 py-5 text-center", pkg.popular && "bg-navy-600")}
-                >
-                  <span className="block text-base font-bold text-cream">{pkg.tier}</span>
-                  <span className="mt-0.5 block text-xs font-semibold text-gold">
-                    ₹{pkg.priceLabel} / sq.ft
-                  </span>
+        <div className="overflow-x-auto">
+          <table className="w-full min-w-[760px] border-collapse text-left">
+            <thead>
+              <tr className="bg-navy text-cream">
+                <th className="px-5 py-5 text-sm font-semibold uppercase tracking-[0.12em]">
+                  Features
                 </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {comparison.features.map((feature, row) => (
-              <tr key={feature} className="border-t border-navy/10 transition-colors hover:bg-cream/60">
-                <td className="px-6 py-4 text-sm font-medium text-navy">{feature}</td>
                 {packages.map((pkg) => (
-                  <td
+                  <th
                     key={pkg.slug}
-                    className={cn("px-4 py-4 text-center", pkg.popular && "bg-gold/6")}
+                    className={cn("px-3 py-5 text-center", pkg.popular && "bg-navy-600")}
                   >
-                    <div className="flex justify-center">
-                      <Mark ok={comparison.matrix[pkg.slug as MatrixKey][row]} />
-                    </div>
-                  </td>
+                    <span className="block text-sm font-bold text-cream sm:text-base">
+                      {pkg.tier}
+                    </span>
+                    <span className="mt-0.5 block text-[0.7rem] font-semibold text-cream/60 sm:text-xs">
+                      {pkg.badge}
+                    </span>
+                    <span className="mt-0.5 block text-xs font-semibold text-gold">
+                      ₹{pkg.priceLabel}/sq.ft
+                    </span>
+                    {pkg.popular && (
+                      <span className="mt-1.5 inline-block rounded-full bg-gold px-2 py-0.5 text-[0.6rem] font-bold uppercase tracking-wider text-navy">
+                        Most Popular
+                      </span>
+                    )}
+                  </th>
                 ))}
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {comparison.features.map((feature, row) => (
+                <tr
+                  key={feature}
+                  className="border-t border-navy/10 transition-colors hover:bg-cream/60"
+                >
+                  <td className="px-5 py-3.5 text-sm font-medium text-navy">{feature}</td>
+                  {packages.map((pkg) => (
+                    <td
+                      key={pkg.slug}
+                      className={cn("px-3 py-3.5 text-center", pkg.popular && "bg-gold/[0.06]")}
+                    >
+                      <div className="flex justify-center">
+                        <Mark ok={comparison.matrix[pkg.slug as MatrixKey][row]} />
+                      </div>
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
 
       {/* Mobile cards */}
@@ -75,8 +90,13 @@ export function ComparisonTable() {
             )}
           >
             <div className="flex items-center justify-between bg-navy px-5 py-4">
-              <span className="text-base font-bold text-cream">{pkg.tier}</span>
-              <span className="text-sm font-semibold text-gold">₹{pkg.priceLabel} / sq.ft</span>
+              <div>
+                <span className="block text-base font-bold text-cream">{pkg.tier}</span>
+                <span className="text-[0.7rem] font-semibold uppercase tracking-wider text-cream/60">
+                  {pkg.badge}
+                </span>
+              </div>
+              <span className="text-sm font-semibold text-gold">₹{pkg.priceLabel}/sq.ft</span>
             </div>
             <ul className="divide-y divide-navy/10">
               {comparison.features.map((feature, row) => (

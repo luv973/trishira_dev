@@ -7,7 +7,7 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
-/** Pre-render one static page per package (silver / gold / diamond). */
+/** Pre-render one static page per package (silver / gold / platinum / diamond). */
 export function generateStaticParams() {
   return packages.map((pkg) => ({ slug: pkg.slug }));
 }

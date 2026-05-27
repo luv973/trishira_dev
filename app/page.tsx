@@ -163,9 +163,9 @@ export default function HomePage() {
             description="From structural grey-work to a complete turnkey home — choose the scope that fits your needs and budget."
           />
         </Reveal>
-        <div className="mt-14 grid gap-6 lg:grid-cols-3 lg:gap-7">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 xl:grid-cols-4 xl:gap-5">
           {packages.map((pkg, index) => (
-            <Reveal key={pkg.slug} delay={index * 0.1} className="h-full">
+            <Reveal key={pkg.slug} delay={index * 0.08} className="h-full">
               <PackageCard pkg={pkg} />
             </Reveal>
           ))}

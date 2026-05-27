@@ -37,6 +37,15 @@ export const tierTheme: Record<PackageTier, TierTheme> = {
     border: "hover:border-gold/45",
     dot: "bg-gold",
   },
+  Platinum: {
+    badge: "bg-linear-to-r from-gold-300 via-gold to-gold-400 text-navy",
+    accent: "text-gold",
+    iconWrap: "bg-gold/15 text-gold ring-1 ring-gold/30",
+    priceWrap: "bg-navy text-gold ring-1 ring-gold/30",
+    halo: "bg-gold-300/45",
+    border: "hover:border-gold/55",
+    dot: "bg-gold-400",
+  },
   Diamond: {
     badge: "bg-navy text-gold ring-1 ring-gold/40",
     accent: "text-gold",

@@ -1,0 +1,37 @@
+
+> trishira-developers@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.5.18
+   - Local:        http://localhost:3000
+   - Network:      http://172.16.5.30:3000
+
+ ✓ Starting...
+ ✓ Ready in 5.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 15.9s (1485 modules)
+ GET / 200 in 567ms
+ GET / 200 in 489ms
+ GET / 200 in 517ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 1801ms (1476 modules)
+ GET /about/ 200 in 3074ms
+ ○ Compiling /services ...
+ ✓ Compiled /services in 521ms (1464 modules)
+ GET /services/ 200 in 1006ms
+ ✓ Compiled /packages in 471ms (1472 modules)
+ GET /packages/ 200 in 2643ms
+ ✓ Compiled /contact in 494ms (1477 modules)
+ GET /contact/ 200 in 1402ms
+ ○ Compiling /packages/[slug] ...
+ ✓ Compiled /packages/[slug] in 1690ms (1489 modules)
+ GET /packages/silver/ 200 in 6038ms
+ GET /packages/gold/ 200 in 785ms
+ GET /packages/diamond/ 200 in 694ms
+ GET / 200 in 1091ms
+ GET / 200 in 931ms
+ GET /packages/diamond/ 200 in 126ms
+ ✓ Compiled in 4.1s (1486 modules)
+ ✓ Compiled in 587ms (1486 modules)
+ ✓ Compiled in 455ms (1486 modules)
+ GET / 200 in 1539ms

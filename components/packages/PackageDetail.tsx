@@ -262,7 +262,7 @@ export function PackageDetail({ pkg }: { pkg: ConstructionPackage }) {
             }
           />
         </Reveal>
-        <div className="mt-12 grid gap-6 sm:grid-cols-2">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {otherPackages.map((item, index) => (
             <Reveal key={item.slug} delay={index * 0.1} className="h-full">
               <PackageCard pkg={item} />

@@ -17,7 +17,9 @@ export function Footer() {
         <div className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <Logo variant="light" />
+            <div className="overflow-hidden rounded-xl ring-1 ring-white/20 shadow-sm inline-block">
+              <Logo className="h-16 w-16" width={64} height={64} />
+            </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-cream/65">
               Complete turnkey construction solutions — built with strength, precision and trust.
             </p>

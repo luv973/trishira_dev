@@ -1,0 +1,11 @@
+
+> trishira-developers@1.0.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use by process 8048, using available port 3001 instead.
+   ▲ Next.js 15.5.18
+   - Local:        http://localhost:3001
+   - Network:      http://172.16.5.7:3001
+
+ ✓ Starting...
+ ✓ Ready in 2.9s

@@ -1,0 +1,46 @@
+
+> trishira-developers@1.0.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use by process 8048, using available port 3002 instead.
+   ▲ Next.js 15.5.18
+   - Local:        http://localhost:3002
+   - Network:      http://172.16.4.108:3002
+
+ ✓ Starting...
+ ✓ Ready in 3.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 8.6s (1565 modules)
+ GET / 200 in 10566ms
+ GET / 200 in 513ms
+ ✓ Compiled in 782ms (663 modules)
+ ✓ Compiled in 340ms (663 modules)
+ ✓ Compiled in 279ms (663 modules)
+ ✓ Compiled in 336ms (663 modules)
+ ✓ Compiled in 414ms (663 modules)
+ ✓ Compiled in 203ms (663 modules)
+ ✓ Compiled in 233ms (663 modules)
+ ✓ Compiled in 353ms (663 modules)
+ ✓ Compiled in 302ms (663 modules)
+ ✓ Compiled in 407ms (663 modules)
+ ✓ Compiled in 220ms (663 modules)
+ ✓ Compiled in 240ms (663 modules)
+ ✓ Compiled in 240ms (663 modules)
+ ✓ Compiled in 304ms (663 modules)
+ ✓ Compiled in 395ms (663 modules)
+ ✓ Compiled in 7.3s (663 modules)
+ ✓ Compiled in 339ms (663 modules)
+ ✓ Compiled in 238ms (663 modules)
+ ✓ Compiled in 307ms (663 modules)
+ ✓ Compiled in 263ms (663 modules)
+ ✓ Compiled in 214ms (663 modules)
+ ✓ Compiled in 591ms (663 modules)
+ ✓ Compiled in 281ms (663 modules)
+ ✓ Compiled in 231ms (663 modules)
+ ✓ Compiled in 307ms (663 modules)
+ ✓ Compiled in 286ms (663 modules)
+ ✓ Compiled in 298ms (663 modules)
+ ✓ Compiled in 324ms (663 modules)
+ ✓ Compiled in 670ms (663 modules)
+ ✓ Compiled in 344ms (663 modules)
+ ✓ Compiled in 177ms (663 modules)
