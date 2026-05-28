@@ -44,3 +44,35 @@
  ✓ Compiled in 670ms (663 modules)
  ✓ Compiled in 344ms (663 modules)
  ✓ Compiled in 177ms (663 modules)
+ ✓ Compiled in 456ms (663 modules)
+ ✓ Compiled in 339ms (663 modules)
+ ✓ Compiled in 273ms (663 modules)
+ ✓ Compiled in 330ms (663 modules)
+ ✓ Compiled in 215ms (663 modules)
+ ✓ Compiled in 180ms (663 modules)
+ ✓ Compiled in 131ms (663 modules)
+ ✓ Compiled in 173ms (663 modules)
+ ⨯ ./components/layout/Navbar.tsx
+Error:   [31mx[0m Expected '</', got '{'
+    ,-[[36;1;4mE:\trishira\trishira_dev\components\layout\Navbar.tsx[0m:80:1]
+ [2m77[0m |           ))}
+ [2m78[0m |         </ul>
+ [2m79[0m | 
+ [2m80[0m |         {/* Desktop actions */}
+    : [35;1m        ^[0m
+ [2m81[0m |         <div className="hidden items-center gap-4 lg:flex">
+ [2m82[0m |           <a
+ [2m83[0m |             href={`tel:+${company.phoneDigits}`}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/layout/Navbar.tsx
+ ✓ Compiled in 164ms (663 modules)
+ ✓ Compiled in 173ms (663 modules)
+ ✓ Compiled in 308ms (663 modules)
+ ✓ Compiled in 366ms (663 modules)
+ ✓ Compiled in 267ms (663 modules)
+ ✓ Compiled in 256ms (663 modules)

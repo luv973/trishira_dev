@@ -14,7 +14,7 @@ interface LogoProps {
 export function Logo({ className, width = 56, height = 56 }: LogoProps) {
   return (
     <Image
-      src="/images/logo.png"
+      src="/images/Logo.png"
       alt="Trishira Developers"
       width={width}
       height={height}

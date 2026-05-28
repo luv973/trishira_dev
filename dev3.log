@@ -104,3 +104,101 @@
  GET / 200 in 168ms
  GET / 200 in 134ms
 <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: EPERM: operation not permitted, rename 'E:\trishira\trishira_dev\.next\cache\webpack\server-development\2.pack.gz_' -> 'E:\trishira\trishira_dev\.next\cache\webpack\server-development\2.pack.gz'
+ ✓ Compiled in 827ms (1547 modules)
+ GET / 200 in 477ms
+ ✓ Compiled in 508ms (1547 modules)
+ GET / 200 in 241ms
+ ✓ Compiled in 409ms (1547 modules)
+ GET / 200 in 322ms
+ GET / 200 in 127ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'E:\trishira\trishira_dev\.next\cache\webpack\client-development\2.pack.gz_' -> 'E:\trishira\trishira_dev\.next\cache\webpack\client-development\2.pack.gz'
+ ✓ Compiled in 762ms (1547 modules)
+ GET / 200 in 373ms
+ ✓ Compiled in 365ms (1547 modules)
+ GET / 200 in 261ms
+ ✓ Compiled in 300ms (1547 modules)
+ GET / 200 in 238ms
+ ✓ Compiled in 274ms (1547 modules)
+ GET / 200 in 349ms
+ ⨯ ./components/layout/Navbar.tsx
+Error:   [31mx[0m Expected '</', got '{'
+    ,-[[36;1;4mE:\trishira\trishira_dev\components\layout\Navbar.tsx[0m:80:1]
+ [2m77[0m |           ))}
+ [2m78[0m |         </ul>
+ [2m79[0m | 
+ [2m80[0m |         {/* Desktop actions */}
+    : [35;1m        ^[0m
+ [2m81[0m |         <div className="hidden items-center gap-4 lg:flex">
+ [2m82[0m |           <a
+ [2m83[0m |             href={`tel:+${company.phoneDigits}`}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/layout/Navbar.tsx
+./app/layout.tsx
+ ○ Compiling /_error ...
+ ⨯ ./components/layout/Navbar.tsx
+Error:   [31mx[0m Expected '</', got '{'
+    ,-[[36;1;4mE:\trishira\trishira_dev\components\layout\Navbar.tsx[0m:80:1]
+ [2m77[0m |           ))}
+ [2m78[0m |         </ul>
+ [2m79[0m | 
+ [2m80[0m |         {/* Desktop actions */}
+    : [35;1m        ^[0m
+ [2m81[0m |         <div className="hidden items-center gap-4 lg:flex">
+ [2m82[0m |           <a
+ [2m83[0m |             href={`tel:+${company.phoneDigits}`}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/layout/Navbar.tsx
+./app/layout.tsx
+ GET / 500 in 7353ms
+ GET / 500 in 28ms
+ GET / 500 in 28ms
+ GET / 500 in 30ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /_error in 657ms (1894 modules)
+ GET / 200 in 230ms
+ GET / 200 in 1747ms
+ ✓ Compiled in 672ms (1894 modules)
+ GET / 200 in 414ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 941ms (1884 modules)
+ GET /images/logo.png 404 in 1358ms
+ GET / 200 in 2094ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 549ms (1098 modules)
+ GET /icon.svg?c3215dc3c60b9e93 200 in 1360ms
+ GET /images/logo.png 404 in 1364ms
+ GET /images/logo.png 404 in 176ms
+ GET / 200 in 825ms
+ GET /images/logo.png 404 in 160ms
+ GET /images/logo.png 404 in 173ms
+ GET / 200 in 682ms
+ GET /icon.svg?c3215dc3c60b9e93 200 in 21ms
+ GET /images/logo.png 404 in 197ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: EPERM: operation not permitted, rename 'E:\trishira\trishira_dev\.next\cache\webpack\server-development\2.pack.gz_' -> 'E:\trishira\trishira_dev\.next\cache\webpack\server-development\2.pack.gz'
+ GET / 200 in 897ms
+ GET /icon.svg?c3215dc3c60b9e93 200 in 15ms
+ ✓ Compiled in 754ms (1912 modules)
+ GET / 200 in 553ms
+ ✓ Compiled in 564ms (1912 modules)
+ GET / 200 in 507ms
+ ✓ Compiled in 519ms (1895 modules)
+ GET / 200 in 697ms
+ GET / 200 in 875ms
+ ✓ Compiled /icon.svg in 277ms (1095 modules)
+ GET /icon.svg?c3215dc3c60b9e93 200 in 467ms
+ GET / 200 in 2249ms
+ GET /icon.svg?c3215dc3c60b9e93 200 in 24ms
+ GET / 200 in 683ms
+ GET /icon.svg?c3215dc3c60b9e93 200 in 13ms
+ GET / 200 in 805ms
