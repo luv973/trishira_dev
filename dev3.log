@@ -202,3 +202,11 @@ Import trace for requested module:
  GET / 200 in 683ms
  GET /icon.svg?c3215dc3c60b9e93 200 in 13ms
  GET / 200 in 805ms
+ ✓ Compiled in 1649ms (1895 modules)
+ GET / 200 in 1080ms
+ GET / 200 in 1080ms
+ GET / 200 in 313ms
+ ✓ Compiled in 1211ms (1895 modules)
+ GET / 200 in 878ms
+ GET / 200 in 879ms
+ GET / 200 in 325ms

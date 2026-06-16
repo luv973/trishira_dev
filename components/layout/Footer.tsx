@@ -8,7 +8,7 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative overflow-hidden bg-navy text-cream/75">
+    <footer className="relative overflow-hidden bg-black text-cream/75">
       {/* gold top accent */}
       <div className="h-1 w-full bg-linear-to-r from-gold-300 via-gold to-gold-400" />
       <div className="absolute inset-0 bg-blueprint opacity-40" aria-hidden />
@@ -17,8 +17,8 @@ export function Footer() {
         <div className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <div className="overflow-hidden rounded-xl ring-1 ring-white/20 shadow-sm inline-block">
-              <Logo className="h-16 w-16" width={64} height={64} />
+            <div className="overflow-hidden rounded-xl shadow-sm inline-block">
+              <Logo className="h-50 w-50" width={64} height={64} />
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-cream/65">
               Complete turnkey construction solutions — built with strength, precision and trust.

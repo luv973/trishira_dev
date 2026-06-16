@@ -26,6 +26,7 @@ export function Navbar() {
   }, [pathname]);
 
   useEffect(() => {
+    console.log("Navbar open state:", open);
     document.body.style.overflow = open ? "hidden" : "";
     return () => {
       document.body.style.overflow = "";
@@ -44,14 +45,14 @@ export function Navbar() {
           : "bg-white/92 shadow-sm backdrop-blur-md",
       )}
     >
-      <nav className="container-x flex h-20 items-center justify-between">
+      <nav className="container-x flex h-20 items- justify-between">
         {/*
           Logo wrapped in a navy container so the image (which has a dark
           background) always reads cleanly against the white navbar.
         */}
         <Link href="/" aria-label="Trishira Developers — Home" className="shrink-0">
-          <div className="overflow-hidden rounded-xl bg-white p-1 ring-1 ring-white/20 shadow-sm transition-transform duration-300 hover:scale-105">
-            <Logo className="h-12 w-12" width={500} height={500} />
+          <div className="overflow-hidden ">
+            <Logo className="h-20 w-50" width={300} height={100} />
           </div>
         </Link>
 
