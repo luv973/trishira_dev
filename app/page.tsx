@@ -1,5 +1,6 @@
 import { ArrowRight, Quote } from "lucide-react";
 import { Hero } from "@/components/home/Hero";
+import { FounderMessage } from "@/components/sections/FounderMessage";
 import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
 import { ProcessSection } from "@/components/sections/ProcessSection";
 import { Button } from "@/components/ui/Button";
@@ -179,6 +180,8 @@ export default function HomePage() {
       </section>
 
       <ProcessSection />
+
+      <FounderMessage />
 
       <CTASection />
     </>

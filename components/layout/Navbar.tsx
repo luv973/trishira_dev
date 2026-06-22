@@ -52,7 +52,7 @@ export function Navbar() {
         */}
         <Link href="/" aria-label="Trishira Developers — Home" className="shrink-0">
           <div className="overflow-hidden ">
-            <Logo className="h-20 w-50" width={300} height={100} />
+            <Logo className="h-30 w-50" width={300} height={100} />
           </div>
         </Link>
 

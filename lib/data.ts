@@ -521,3 +521,18 @@ export const packagePerks: Feature[] = [
   { icon: Users, title: "Ideal For Residential Families", text: "Crafted for real homes and real families." },
 ];
 
+/* ------------------------------------------------------------------ */
+/*  Founder / Leadership                                               */
+/* ------------------------------------------------------------------ */
+
+export const founder = {
+  name: "Founder Name",                        // ← Replace with actual founder name
+  designation: "Founder & CEO, Trishira Developers",
+  imageSrc: "/images/iMAGE.png",
+  title: "Leading with Trust, Building with Excellence",
+  message:
+    "At Trishira Developers, we believe that every project is more than a structure — it is a promise built on trust, quality, and commitment. Our mission is to create spaces that reflect innovation, functionality, and long-term value. With a customer-first approach and attention to every detail, we strive to deliver excellence in every project.",
+  quote:
+    "Quality construction is not just about buildings; it is about creating lasting relationships and fulfilling dreams.",
+} as const;
+
