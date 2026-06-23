@@ -58,9 +58,9 @@ export const company = {
   registration: "09LEFPS7650G1ZT",
 
   instagram: "@trishiradevelopers",
-  instagramUrl: "https://www.instagram.com/trishiradevelopers",
+  instagramUrl: "https://www.instagram.com/trishiradevelopers/",
   facebook: "Trishira Developers",
-  facebookUrl: "https://www.facebook.com/trishiradevelopers",
+  facebookUrl: "https://www.facebook.com/share/18miLqek4X/",
 } as const;
 
 /** Build a pre-filled WhatsApp chat link. */
@@ -526,7 +526,7 @@ export const packagePerks: Feature[] = [
 /* ------------------------------------------------------------------ */
 
 export const founder = {
-  name: "Founder Name",                        // ← Replace with actual founder name
+  name: "Er. Navprafull Srivastav",                        // ← Replace with actual founder name
   designation: "Founder & CEO, Trishira Developers",
   imageSrc: "/images/iMAGE.png",
   title: "Leading with Trust, Building with Excellence",

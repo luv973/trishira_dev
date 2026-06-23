@@ -43,7 +43,7 @@ export function FounderMessage() {
             <div className="group relative mx-auto max-w-[320px] lg:mx-0 lg:max-w-none">
               {/* Decorative gold offset border */}
               <div
-                className="absolute -bottom-4 -right-4 h-full w-full rounded-[20px] border-2 border-gold/35"
+                className="absolute -bottom-4 -right-4 h-full w-full rounded-[20px]/35"
                 aria-hidden
               />
               <Image
@@ -99,7 +99,13 @@ export function FounderMessage() {
                   />
                   <p className="text-sm leading-relaxed text-cream/85 sm:text-base">
                     {founder.quote}
+
+          
                   </p>
+                   <Quote
+                    className="mt-0.5 h-6 w-6 shrink-0 text-gold"
+                    aria-hidden
+                  />
                 </div>
               </div>
             </Reveal>

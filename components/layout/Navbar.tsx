@@ -45,14 +45,14 @@ export function Navbar() {
           : "bg-white/92 shadow-sm backdrop-blur-md",
       )}
     >
-      <nav className="container-x flex h-20 items- justify-between">
+      <nav className=" flex h-20 items- justify-between">
         {/*
           Logo wrapped in a navy container so the image (which has a dark
           background) always reads cleanly against the white navbar.
         */}
         <Link href="/" aria-label="Trishira Developers — Home" className="shrink-0">
           <div className="overflow-hidden ">
-            <Logo className="h-30 w-50" width={300} height={100} />
+            <Logo className="h-20 w-50" width={300} height={100} />
           </div>
         </Link>
 

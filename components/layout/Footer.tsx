@@ -8,7 +8,7 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative overflow-hidden bg-black text-cream/75">
+    <footer className="relative overflow-hidden bg-[#04010cb8] text-cream/75">
       {/* gold top accent */}
       <div className="h-1 w-full bg-linear-to-r from-gold-300 via-gold to-gold-400" />
       <div className="absolute inset-0 bg-blueprint opacity-40" aria-hidden />
@@ -29,7 +29,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 text-cream/80 transition-colors hover:border-gold hover:bg-gold hover:text-navy"
+                className="flex h-20 w-20 items-center justify-center rounded-full border border-white/15 text-cream/80 transition-colors hover:border- hover:bg-gold hover:text-navy"
               >
                 <InstagramIcon className="h-5 w-5" />
               </a>
@@ -38,7 +38,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 text-cream/80 transition-colors hover:border-gold hover:bg-gold hover:text-navy"
+                className="flex h-20 w-20 items-center justify-center rounded-full border border-white/15 text-cream/80 transition-colors hover:border-gold hover:bg-gold hover:text-navy"
               >
                 <FacebookIcon className="h-5 w-5" />
               </a>
